@@ -73,17 +73,20 @@ console.log(typeof(true));
 console.log(typeof('9'));
 //string
 
-console.log(12+43)
+console.log(12+43);
 //55
 
-console.log('12'+'43')
+console.log('12'+'43');
 //1243
 
-console.log("University"+"Kelaniya"+2023)
+console.log("University"+"Kelaniya"+2023);
 //UniversityKelaniya2023
 
-console.log("University "+"Kelaniya "+2023)
+console.log("University "+"Kelaniya "+2023);
 //University Kelaniya 2023
 
-console.log(6-0.1)
+console.log(6-0.1);
 //5.9
+
+console.log(10%3); //remainder
+//1
