@@ -90,3 +90,11 @@ console.log(6-0.1);
 
 console.log(10%3); //remainder
 //1
+
+let a = 8;
+let b = 2;
+let remainder = a%b;
+let exp = a**b;
+console.log(remainder);
+console.log(exp);
+
