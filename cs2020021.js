@@ -1,34 +1,32 @@
 let name = "Nicole";
-undefined
 
 typeof(name);
-'string'
+//'string'
 
 let year = 2023;
-undefined
 
 typeof(year);
-'number'
+//'number'
 
 console.log("My bot's name is " + name);
-VM2924:1 My bot's name is Nicole
-undefined
+// My bot's name is Nicole
+
 
 console.log("she born in " + year);
-VM3080:1 she born in 2023
-undefined
+// she born in 2023
+
 
 console.log("she was cretaed in " + year);
-VM3133:1 she was cretaed in 2023
+// she was cretaed in 2023
 
 //const variable declaration
 
 const age = 22;
-undefined
+
 age = 21;  //Can't override the value of a constant
-or: Assignment to constant variable.
-    at <anonymous>:1:5
-(anonymous) @ VM3457:1
+// or: Assignment to constant variable.
+//     at <anonymous>:1:5
+// (anonymous) @ VM3457:1
 
 //Find the sum of two numbers
 
@@ -36,8 +34,7 @@ let firstno = 21;
 let secondno = 13;
 let sum = firstno + secondno;
 console.log("Sum = "+sum);
-VM3722:4 Sum = 34
-undefined
+
 
 //Find the area of a circle
 
@@ -45,17 +42,48 @@ const pi = 3.14;
 let r = 7;
 let A = pi*r*r;
 console.log("Area is "+A);
-VM4105:1 Area is 153.86
+
 
 
 //Find the perimeter of a circle
 
 let C = 2*pi*r;
 console.log("Perimeter is "+C);
-VM4374:2 Perimeter is 43.96
+
 
 //getting an input from user
 
 let course = prompt("Enter the course no");
 console.log(Uni + " " + course);
-VM4852:3 University of Kelaniya csci 12063
+
+
+
+console.log(typeof(9));
+//number
+
+console.log(typeof('happy'));
+//string
+
+console.log(typeof(3.7));
+//number
+
+console.log(typeof(true));
+//boolean
+
+console.log(typeof('9'));
+//string
+
+console.log(12+43)
+//55
+
+console.log('12'+'43')
+//1243
+
+console.log("University"+"Kelaniya"+2023)
+//UniversityKelaniya2023
+
+console.log("University "+"Kelaniya "+2023)
+//University Kelaniya 2023
+
+console.log(6-0.1)
+//5.9
