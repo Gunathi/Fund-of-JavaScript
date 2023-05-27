@@ -58,43 +58,50 @@ console.log(Uni + " " + course);
 
 
 
-console.log(typeof(9));
-//number
+console.log(typeof(9)); //number
 
-console.log(typeof('happy'));
-//string
+console.log(typeof('happy')); //string
 
-console.log(typeof(3.7));
-//number
+console.log(typeof(3.7)); //number
 
-console.log(typeof(true));
-//boolean
+console.log(typeof(true)); //boolean
 
-console.log(typeof('9'));
-//string
+console.log(typeof('9')); //string
 
-console.log(12+43);
-//55
+console.log(12+43); //55
 
-console.log('12'+'43');
-//1243
+console.log('12'+'43'); //1243
 
-console.log("University"+"Kelaniya"+2023);
-//UniversityKelaniya2023
+console.log("University"+"Kelaniya"+2023); //UniversityKelaniya2023
 
-console.log("University "+"Kelaniya "+2023);
-//University Kelaniya 2023
+console.log("University "+"Kelaniya "+2023); //University Kelaniya 2023
 
-console.log(6-0.1);
-//5.9
-
-console.log(10%3); //remainder
-//1
+console.log(6-0.1); //5.9
+//remainder
+console.log(10%3); //1
 
 let a = 8;
 let b = 2;
 let remainder = a%b;
 let exp = a**b;
-console.log(remainder);
-console.log(exp);
+console.log(remainder); //0
+console.log(exp); //64
 
+let x = prompt("Enter first number"); //getting input from the user
+let y = prompt("Enter second number");
+let rem = x % y;
+let expo = x**y;
+console.log("Remainder is "+rem); //Remainder is 1
+console.log("Exponentiation is "+expo); //Exponentiation is 7776
+
+//complex arithmetic operations
+
+console.log(1+3*4-2); //11
+
+console.log((1+3)*(4-2)); //8
+
+console.log(1+(3*4)-2); //11
+
+console.log((1+3)*4-2); //14
+
+console.log(1+3*(4-2)); //7
