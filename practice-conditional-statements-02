@@ -1,0 +1,11 @@
+var day = "Sunday";
+
+switch(day){
+    case "Monday": console.log("Go to the lectures."); break;
+    case "Tuesday": console.log("Go to the gym."); break;
+    case "Wednesday": console.log("Meet boyfriend."); break;
+    case "Thursday": console.log("Have a break."); break;
+    case "Friday": console.log("Go to the lectures."); break;
+    case "Saturday": console.log("Go to the temple."); break;
+    case "Sunday": console.log("Read a book.") ;
+}
